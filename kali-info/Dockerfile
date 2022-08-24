@@ -29,7 +29,7 @@ RUN apt-get -y install \
     # Tor Proxy, for proxying traffic. 
     # Note about Tor: Exit nodes are published and kept track of, which allows for
     #                 some companies to auto-update and block them.
-    torgit status
+    tor
     
 
 # Get a shell, profit.
